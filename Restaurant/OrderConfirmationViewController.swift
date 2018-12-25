@@ -20,10 +20,10 @@ class OrderConfirmationViewController: UIViewController {
         super.viewDidLoad()
         
         // see if s at the end needs to be used for plural
-        let s = minutes! == 1 ? "" : "s"
+       // let s = minutes! == 1 ? "" : "s"
 
         // message to the user with the time remaining
-        timeRemainingLabel.text = "Спасибо за заказ!  Ваше время ожидания приблизительно \(minutes!) минут\(s)."
+        timeRemainingLabel.text = "Спасибо за заказ!  Ваше время ожидания приблизительно \(minutes!) минут."
     }
 
     override func didReceiveMemoryWarning() {
