@@ -60,7 +60,7 @@ class MenuItemDetailViewController: UIViewController {
         titleLabel.text = menuItem.name
         
         // food price
-        priceLabel.text = String(format: "$%.2f", menuItem.price)
+        priceLabel.text = String(format: "₽%.2f", menuItem.price)
         
         // detailed food description
         descriptionLabel.text = menuItem.description

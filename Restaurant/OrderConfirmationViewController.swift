@@ -23,7 +23,7 @@ class OrderConfirmationViewController: UIViewController {
         let s = minutes! == 1 ? "" : "s"
 
         // message to the user with the time remaining
-        timeRemainingLabel.text = "Thank you for your order!  Your wait time is approximatly \(minutes!) minute\(s)."
+        timeRemainingLabel.text = "Спасибо за заказ!  Ваше время ожидания приблизительно \(minutes!) минут\(s)."
     }
 
     override func didReceiveMemoryWarning() {

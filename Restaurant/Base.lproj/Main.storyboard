@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Menu-->
+        <!--Меню-->
         <scene sceneID="MrO-Ie-v1m">
             <objects>
                 <tableViewController id="VxE-Hm-JpA" customClass="CategoryTableViewController" customModule="Restaurant" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="VxE-Hm-JpA" id="2V7-eS-LVO"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Menu" id="D9w-px-4Wh"/>
+                    <navigationItem key="navigationItem" title="Меню" id="D9w-px-4Wh"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylL-E0-Ebg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,7 +142,7 @@
                                 <rect key="frame" x="8" y="685" width="359" height="36"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Add To Order">
+                                <state key="normal" title="Добавить в корзину">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -182,7 +182,7 @@
             </objects>
             <point key="canvasLocation" x="3045.5999999999999" y="136.28185907046478"/>
         </scene>
-        <!--Your Order-->
+        <!--Ваш заказ-->
         <scene sceneID="ECf-1l-0tF">
             <objects>
                 <tableViewController id="dJ1-vk-hWv" customClass="OrderTableViewController" customModule="Restaurant" customModuleProvider="target" sceneMemberID="viewController">
@@ -225,8 +225,8 @@
                             <outlet property="delegate" destination="dJ1-vk-hWv" id="EaD-Xp-Bqq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Your Order" id="Q9d-QX-kEW">
-                        <barButtonItem key="rightBarButtonItem" title="Submit" id="aj4-sk-tFp">
+                    <navigationItem key="navigationItem" title="Ваш заказ" id="Q9d-QX-kEW">
+                        <barButtonItem key="rightBarButtonItem" title="Подтвердить" id="aj4-sk-tFp">
                             <connections>
                                 <action selector="submitTapped:" destination="dJ1-vk-hWv" id="GUz-Ww-azu"/>
                             </connections>
@@ -255,8 +255,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndp-lR-bo2">
-                                <rect key="frame" x="160.66666666666666" y="424.33333333333331" width="54" height="30"/>
-                                <state key="normal" title="Dismiss"/>
+                                <rect key="frame" x="159.66666666666666" y="424.33333333333331" width="56" height="30"/>
+                                <state key="normal" title="Отмена"/>
                                 <connections>
                                     <segue destination="I3B-ed-xVH" kind="unwind" identifier="DismissConfirmation" unwindAction="unwindToOrderListWithSegue:" id="Ylc-Tu-au1"/>
                                 </connections>
@@ -281,11 +281,11 @@
             </objects>
             <point key="canvasLocation" x="2126" y="852"/>
         </scene>
-        <!--Your Order-->
+        <!--Ваш заказ-->
         <scene sceneID="rmz-gX-xxU">
             <objects>
                 <navigationController id="z1c-0D-ekf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Your Order" image="order" id="etx-qq-IHX"/>
+                    <tabBarItem key="tabBarItem" title="Ваш заказ" image="order" id="etx-qq-IHX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qFQ-pq-A9Z">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -298,11 +298,11 @@
             </objects>
             <point key="canvasLocation" x="256.80000000000001" y="845.1274362818591"/>
         </scene>
-        <!--Menu-->
+        <!--Меню-->
         <scene sceneID="DOf-im-c0c">
             <objects>
                 <navigationController id="V5Q-oF-zVD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Menu" image="menu" id="T9X-1W-Ik3"/>
+                    <tabBarItem key="tabBarItem" title="Меню" image="menu" id="T9X-1W-Ik3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="qqG-pe-BCa">
                         <rect key="frame" x="0.0" y="44" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>

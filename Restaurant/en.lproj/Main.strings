@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "D9w-px-4Wh"; */
+"D9w-px-4Wh.title" = "Menu";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "KBT-CL-JAR"; */
+"KBT-CL-JAR.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "Ndp-lR-bo2"; */
+"Ndp-lR-bo2.normalTitle" = "Dismiss";
+
+/* Class = "UINavigationItem"; title = "Your Order"; ObjectID = "Q9d-QX-kEW"; */
+"Q9d-QX-kEW.title" = "Your Order";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "T9X-1W-Ik3"; */
+"T9X-1W-Ik3.title" = "Menu";
+
+/* Class = "UILabel"; text = "Title Label"; ObjectID = "Y7J-NS-osm"; */
+"Y7J-NS-osm.text" = "Title Label";
+
+/* Class = "UIBarButtonItem"; title = "Submit"; ObjectID = "aj4-sk-tFp"; */
+"aj4-sk-tFp.title" = "Submit";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bhp-FE-qVV"; */
+"bhp-FE-qVV.text" = "Title";
+
+/* Class = "UILabel"; text = "$ 27.99"; ObjectID = "eCn-LX-m96"; */
+"eCn-LX-m96.text" = "$ 27.99";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eRE-MR-iBR"; */
+"eRE-MR-iBR.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Your Order"; ObjectID = "etx-qq-IHX"; */
+"etx-qq-IHX.title" = "Your Order";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "kZs-pG-3cu"; */
+"kZs-pG-3cu.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "lu3-2z-5Ir"; */
+"lu3-2z-5Ir.text" = "Detail";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tA8-te-SRy"; */
+"tA8-te-SRy.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "tMZ-jp-zvW"; */
+"tMZ-jp-zvW.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Add To Order"; ObjectID = "trO-Hb-K1j"; */
+"trO-Hb-K1j.normalTitle" = "Add To Order";

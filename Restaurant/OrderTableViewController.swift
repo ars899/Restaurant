@@ -25,22 +25,22 @@ class OrderTableViewController: UITableViewController, AddToOrderDelegate {
         }
         
         // format the order total price
-        let formattedOrder = String(format: "$%2.f", orderTotal)
+        let formattedOrder = String(format: "₽%2.f", orderTotal)
         
         // prepare an alert for the user
         let alert = UIAlertController(
-            title: "Confirm Order",
-            message: "You are about to submit your order with a total of \(formattedOrder)",
+            title: "Подтвердить заказ.",
+            message: "Вы собираетесь отправить свой заказ на общую сумму \(formattedOrder)",
             preferredStyle: .alert
         )
         
         // add upload order action on submit
-        alert.addAction(UIAlertAction(title: "Submit", style: .default) { action in
+        alert.addAction(UIAlertAction(title: "Подтвердить", style: .default) { action in
             self.uploadOrder()
         })
         
         // add cancel on dismiss
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Отмена", style: .cancel, handler: nil))
         
         // present the alert for the user about order submission
         present(alert, animated: true, completion: nil)
@@ -137,7 +137,7 @@ class OrderTableViewController: UITableViewController, AddToOrderDelegate {
         cell.textLabel?.text = menuItem.name
         
         // the right label displays the price along with currency symbol
-        cell.detailTextLabel?.text = String(format: "$%.2f", menuItem.price)
+        cell.detailTextLabel?.text = String(format: "₽%.2f", menuItem.price)
         
         // fetch the image from the server
         MenuController.shared.fetchImage(url: menuItem.imageURL) { image in
